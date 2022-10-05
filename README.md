@@ -1,4 +1,4 @@
-# get_x_first_trial
+# JWT-authentication
 
 A new Flutter project.
 
