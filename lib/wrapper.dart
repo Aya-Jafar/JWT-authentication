@@ -19,7 +19,6 @@ class Wrapper extends StatelessWidget {
 
       if (await AuthService.userDataExists()) {
         AuthService.signInHttp(email: email!, password: password!);
-        // print('HOOOME SCREEEEN For already loggedin usereees');
 
       } else {
         Get.offAll(() => LoginPage());
